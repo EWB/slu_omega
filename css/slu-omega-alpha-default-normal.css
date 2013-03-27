@@ -1,0 +1,523 @@
+
+
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+/*#zone-branding {
+    
+    background-image: url(../images/header-blue-w-seal.png);
+    background-color: #7BB4E1;
+    box-shadow: 0 0 10px #000000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 120px;
+} */
+/*#zone-branding img { 
+    padding-top: 40px;
+  }*/
+
+/*#block-search-form {
+      padding-top: 60px;
+
+}  */
+
+ #block-views-base-announcement-block .views-row {
+/*    float:left;
+    margin-left: 30px; 
+    height: 350px;
+    color: #000000;
+    padding: 5px;
+    overflow: hidden;*/
+}
+#zone-postscript-wrapper .views-slideshow-cycle-main-frame-row-item  {
+    padding-top: 4px;
+    width:183px;
+    border-right: 1px dotted #BABABA;
+    color: #333333;
+
+
+}
+#block-views-base-announcement-block  .views-field-title a {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 6px;
+
+}
+#block-views-base-announcement-block img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin-top: 10px;
+    padding: 4px;
+
+
+}
+
+#view-base-announcement  {
+    padding-bottom: 12px;
+
+
+}
+
+/*University Librarians Slideshow/Chronology
+*/
+#block-views-slideshow-block-4 .views-slideshow-cycle-main-frame-row-item  {
+    padding-top: 4px;
+    width:183px;
+    border-right: 1px dotted #BABABA;
+    color: #333333;
+
+
+}
+#block-views-slideshow-block-4 .views-row {
+    float:left;
+    margin-left: 30px; 
+    height: 350px;
+    color: #000000;
+    padding: 5px;
+    overflow: hidden;
+}
+/*#views_slideshow_controls_text_previous_base_announcement-block_1  {
+    background: url("../images/slideshow-medium-grey-arrow-left.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    position: relative;
+    text-align: left;
+    text-indent: -9999px;
+    top: 160px;
+    width: 22px;
+    z-index: 100;
+
+}
+#views_slideshow_controls_text_next_base_announcement-block_1 {
+    background: url("../images/slideshow-medium-grey-arrow-right.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    float:right;
+    position: relative;
+    text-align: left;
+    text-indent: -9999px;
+    top: 115px;
+    width: 22px
+}*/
+.views-slideshow-controls-text-pause {
+    display:none;
+}
+#views_slideshow_controls_text_next_base_announcement-block, #views_slideshow_controls_text_previous_base_announcement-block  { 
+    background: url("../images/slideshow-medium-grey-arrows.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    left: 14px;
+    position: absolute;
+    text-align: left;
+    text-indent: -9999px;
+    top: 140px;
+    width: 22px;
+    z-index:200;
+}
+#views_slideshow_controls_text_previous_base_announcement-block  { 
+    background: url("../images/slideshow-medium-grey-arrow-right.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    left: 900px;
+    position: absolute;
+    text-align: left;
+    text-indent: -9999px;
+    top: 140px;
+    width: 22px;
+    z-index:200;
+}
+.node-type-library-manuscript-collection  .container-12 .grid-9 {
+    /*width: 560px;*/
+}
+.view-manuscript-collections .views-field-field-manuscript-image img {
+    float: left;
+    padding-top: 8px;
+    padding-right: 14px;
+
+}
+
+/*.node-type-base-announcement .container-12 .grid-6 {
+    width: 340px;
+}
+.node-type-base-announcement .container-12 .grid-9 {
+    width: 580px;
+
+}*/
+
+.node-base-announcement .field-name-body ul li{
+}
+
+.node-base-announcement .flexslider {
+    border: none;
+}
+.field-name-field-announcement-images  {
+    float: left;
+    margin-right: 32px;
+/*    width:250px;
+*/}
+.node-type-base-announcement .field-name-field-announcement-images  {
+   width:250px;
+}
+/*.node-type-library-staff-profile .container-12 .grid-9 {
+    width: 580px;
+}*/
+
+.node-type-library-staff-profile .field-name-field-staff-profile-photograph {
+      float: left;
+      margin-right: 24px;
+      margin-top: 14px;
+}
+.field-name-field-staff-profile-email {
+  clear:both;
+}
+.field-name-field-staff-profile-bio  {
+      margin-top: 18px;
+}
+
+
+.node-type-library-manuscript-collection .field-name-field-manuscript-image  {
+   /* margin-top: 106px;*/
+    float: left;
+    margin-right: 24px;
+    margin-top: 14px;
+
+}
+.node-library-manuscript-collection .field-name-body {
+  padding-top:24px;
+}
+
+.block-quicktabs-library-search-cluster-mobile  {
+    display: none;
+
+}
+
+.logged-in #block-ds-extras-announcement-right .field-name-field-announcement-images img {
+    margin-top:140px;
+
+}
+
+.front #block-views-featured-block img {
+    height: 250px;
+    width: 400px;
+}
+
+.front .flexslider {
+    width: 400px
+}
+
+
+.block-library-search-cluster {
+    display: block;
+}
+.library-menu-mobile {
+    display: none;
+}
+/**************** hide and seek - START ***************************/
+
+
+#block-views-manuscript-collections-block-1 {
+  display: block;
+}
+/*#block-views-base-announcement-block-1 {
+    display: none;
+
+}
+#block-views-base-announcement-block {
+    display: block;
+
+}
+#block-views-base-announcement-block-3 {
+    display: none;
+
+}*/
+/*#block-views-base-announcement-block-4 {
+    display: none;
+}*/
+
+.citation-guides-mobile {
+    display: none;
+}
+.citation-guides-regular  {
+    display: block;
+}
+
+.block-superfish-1 {
+    display: block;
+}
+.block-superfish-2 {
+    display: none;
+}
+.block-superfish-3 {
+    display: block;
+}
+.block-boxes-front-resources-block {
+    display: block;
+}
+
+/**************** hide and seek - END ***************************/
+
+/**************** Search Results Styling - START ***************************/
+
+.page-search .node-glossary-term {
+    
+    padding-left: 80px;
+    padding-top: 8px;
+    color:#666666;
+    font-size: .8em;
+    font-style: italic;
+    width:70%;
+
+}
+
+.page-search-site .node-library-ebook-collection .group-left {
+    width:75%;
+}
+.page-search-site .node-library-ebook-collection .group-right {
+    padding-top: 12px;
+    width:20%;
+}
+.page-search-site .node-base-library-database .group-left {
+    width:75%;
+}
+.page-search-site .node-base-library-database .group-right {
+    width:20%;
+}
+.page-search-site .node-base-announcement .group-left {
+    width:70%;
+}
+.page-search-site .node-base-announcement .group-right {
+    width:20%;
+    padding-top: 12px;
+}
+.page-search-site .node-library-staff-profile .group-left {
+    width:70%;
+}
+.page-search-site .node-library-staff-profile .group-right {
+    width:20%;
+    padding-top: 12px;
+    padding-left: 8px;
+}
+.page-search-site .node-library-manuscript-collection .group-left {
+    width:70%;
+    padding-top: 12px;
+    padding-left: 8px;
+}
+.page-search-site .node-library-manuscript-collection .group-right {
+    width:20%;
+    padding-top: 12px;
+    padding-left: 8px;
+}
+
+#region-menu-second .container-12 .suffix-1 {
+    padding-left: 153px;
+    padding-right: 0;
+}
+
+
+/**************** Search Results Styling - END ***************************/
+
+
+p.two-column-first, div.two-column-first, span.two-column-first {
+  display: block;
+  float: left;
+  width: 47%;
+}
+
+p.two-column-last, div.two-column-last, span.two-column-last {
+  clear:none;
+  display: block;
+  float: right;
+  width: 47%;
+}
+
+
+p.dropcap:first-letter, span.dropcap:first-letter {
+    background-color: #980000;
+    color: #FFFFFE;
+}
+
+p.dropcap:first-letter, p span.dropcap:first-letter {
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin: 3px 6px 0 0;
+    padding: 10px;
+}
+
+
+.flexslider {
+  position: relative;
+  font-family: Verdana;
+  font-weight: bold;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.flexslider .slide-text {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(51, 51, 51, 0.9);
+  width: 100%;
+  height: 80px;
+  display: block;
+}
+
+.flexslider h2.slide {
+  position: absolute;
+  bottom: 28px;
+  right: 15px;
+}
+
+.flexslider h2.slide a {
+  font-family: Verdana;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.flexslider div.slide-description {
+  font-size: .7em;  
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  left:5px;
+  display: block;
+
+}
+
+.flexslider em.slide-source {
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+}
+/*.context-ody-library #block-views-slideshow-block-4 {
+    
+}*/
+.node-library-guide-or-tutorial .field-name-body {
+  display: block;
+  float: left;
+  width: 60%;
+}
+.node-library-guide-or-tutorial .field-type-image {
+  
+    clear:none;
+    display: block;
+    float: right;
+    width: 37%;
+}
+.node-type-general-content .field-type-image  {
+  float: right;
+  margin-right: 18px;
+  padding-left: 18px;
+
+}
+ .node-type-general-content .block-announcements-block .field-type-image {
+    float: right;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+
+.view-citation-guides tr {
+
+}
+
+.view-citation-guides .col-1 .col-first  {
+
+    float: left;
+    padding-right: 8%;
+    position: relative;
+    width: 46%;
+
+}
+.view-citation-guides .col-2 .col-last  {
+
+    float: left;
+    padding-right: 8%;
+    position: relative;
+    width: 46%;
+}
+.views-field-field-citation-guide-image {
+    float: left;
+    width: 13%;
+    display: block;
+}
+.page-search .node-library-citation-guide .view-mode-search_result .field-name-body p {
+    padding-top: 38px;
+    
+}
+
+
+.view-citation-guides .views-field-title, .view-citation-guides .views-field-body, .view-citation-guides .views-field-field-citation-guide-additional {
+    float: right;
+    overflow: hidden;
+    width: 71%;
+}
+.field-name-field-citation-guide-image {
+    float:left;
+    margin-right: 18px;
+}
+.page-search .field-name-field-citation-guide-image {
+    float: right;
+    margin-left: 18px;
+}
+
+#quicktabs-library_search_cluster  input[type="text"] {
+   /* width:255px;*/
+
+}
+.node-base-library-database {
+    padding-bottom: 28px;
+
+}
+.node-base-library-database p {
+    margin-bottom: 0px;
+
+}
+.node-base-library-database h2.node-title {
+      font-size: 18px;
+      margin-bottom: 6px;
+
+}
+
+/*ie8 fixes */
+.block-superfish-1 {
+    z-index: 100px;
+
+  }
+#block-quicktabs-library-search-cluster  {
+    z-index: 1px;
+}  
+
+
+.view-services-a-z  {
+    padding-left: 24px;
+
+}
+
+.page-node .block-main .node-general-content {
+    padding-left: 24px;
+}
+
+#block-quicktabs-special-collections-search-clust {
+      width: 520px;  
+      margin-left: 60px;
+}
+.front #zone-postscript img {
+
+    width:180px;
+    height: 120px;
+
+}
+.front #zone-postscript .view-manuscript-collections img {
+
+  width: 100px;
+  height: 78px;
+}
+
