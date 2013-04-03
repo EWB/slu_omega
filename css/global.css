@@ -19,7 +19,7 @@ body {
 .site-name {
     margin-top: 0px;
 }
-h1.site-name {
+h1.site-name, h2.site-name {
     color: #FFFFFF;
     z-index: 400;   
     font-size: 2.6em;
@@ -29,13 +29,13 @@ h1.site-name {
     line-height: 1.8em;
 
 }
-h1.site-name a {
+h1.site-name a, h2.site-name a {
         color: #FFFFFF;
         z-index: 400;
         font-family: polyregular,arial;
 
     }
-h2.site-name {
+/*h2.site-name {
     padding-bottom: 2px;
 
     color: #FFFFFF;
@@ -44,11 +44,12 @@ h2.site-name {
 
 
 }
+
 h2.site-name a {
         color: #FFFFFF;
         z-index: 400;
 
-    }
+    }*/
 #zone-content {
   background-color: #ffffff;
 }
@@ -1957,7 +1958,7 @@ div.admin.my-workbench .left {
 
 
 #block-superfish-3  {
-    padding-top: 58px;
+    padding-top: 68px;
 }
 
 
