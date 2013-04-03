@@ -21,6 +21,12 @@
 
 }  */
 
+#zone-content-grid h2.block-title {
+
+    font-size: 1.3em;
+
+}
+
  #block-views-base-announcement-block .views-row {
 /*    float:left;
     margin-left: 30px; 
@@ -28,6 +34,29 @@
     color: #000000;
     padding: 5px;
     overflow: hidden;*/
+}
+
+.front #zone-postscript  .field-content p {
+    max-width:200px;
+
+}
+.front #zone-postscript img {
+
+    width:100px;
+    height: 67px;
+    float:none;
+
+}
+#zone-postscript .block-views .views-row {
+    min-height: 305px;
+}
+
+
+.front .container-12 .grid-2 {
+    width: 220px;
+}
+.front .container-12 .grid-3 {
+    width: 220px;
 }
 #zone-postscript-wrapper .views-slideshow-cycle-main-frame-row-item  {
     padding-top: 4px;

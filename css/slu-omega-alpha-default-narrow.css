@@ -90,7 +90,7 @@ html {
 
 
 
-.front #zone-postscript  .field-content p {
+/*.front #zone-postscript  .field-content p {
     max-width:200px;
 
 }
@@ -104,11 +104,18 @@ html {
 #zone-postscript .block-views .views-row {
     min-height: 305px;
 }
+*/
+#zone-content-grid h2.block-title {
+
+    font-size: 1.1em;
+
+}
 
 #boxes-box-front_resources_block ul.homeres li {
 
     width:170px;  
     padding-left: 0px;
+    margin-bottom: 0px;
 
 }
 
@@ -119,3 +126,16 @@ html {
  
 }
 
+.front .container-12 .grid-2 {
+    width: 330px;
+}
+.front .container-12 .grid-3 {
+    width: 330px;
+}
+
+.front #zone-postscript .view-manuscript-collections img {
+  float: left;
+}
+.front .view-base-announcement .field-name-field-announcement-images img {
+  float: left;
+}
