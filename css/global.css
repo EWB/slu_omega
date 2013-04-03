@@ -16,6 +16,9 @@ body {
 /*    font-family: "Helvetica Neue","Helvetica","Arial";
 */    font-size: 14px;
 }
+.site-name {
+    margin-top: 0px;
+}
 h1.site-name {
     color: #FFFFFF;
     z-index: 400;   
@@ -23,6 +26,7 @@ h1.site-name {
     padding-bottom: 2px;
     text-shadow: 1px 1px 2px black;
     text-indent: 40px;
+    line-height: 1.8em;
 
 }
 h1.site-name a {
@@ -108,11 +112,7 @@ h3, h4, h5, h6 {
 
 }
 
-#zone-branding-wrapper {
-/*            background-color:#A90018;
-*/
 
-}
 /*blue*/
 #zone-branding {
 /*        background-color:#A90018;
@@ -153,28 +153,29 @@ h3, h4, h5, h6 {
 }
 
 #zone-menu {
-/*    background-color: #3C221C;
-*/    
+  
     color:#FFFFFF;
     background-color: #000000;
+    margin-bottom: 0;
+    /*    background-color: #3C221C;
+*/  
 /*    height:115px;
 */    /*filter:alpha(opacity=85); 
     -moz-opacity:0.85; 
     opacity: 0.85; */
  /*   box-shadow: 0 0 10px #000000;*/
-    background: url("../images/black-50.png") repeat scroll left top transparent;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    margin-bottom: 0;
+/*    background: url("../images/black-50.png") repeat scroll left top transparent;
+*/  
+/*    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;*/
+    
 /*    overflow: hidden;
 */
 }
 
 #zone-menu ul li {
 
-
 }
-
 
 /*blue*/
 #zone-content-grid, #zone-content, #zone-header-wrapper, #zone-postscript {
@@ -860,12 +861,21 @@ ul.nice-menu-down li li.menuparent:hover {
 /*#block-views-manuscript-collections-block-1 {
   display: none;
 }*/
+
+#zone-branding-wrapper {
+            background-color:#A90018;
+
+}
 .block-library-search-cluster  {
     display: none;
 }
 #region-branding-second #block-search-form {
     display: none;
 
+}
+
+.block-superfish-4 {
+    display: none;
 }
 
 /*#block-views-base-announcement-block {

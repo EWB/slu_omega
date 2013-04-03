@@ -29,6 +29,10 @@ html {
 }*/
 /*.front #region-postscript-fourth { 
 }*/
+#zone-branding-wrapper {
+            background-color:transparent;
+
+}
 
 .block-nice-menus-2 {
     display: block;
@@ -39,6 +43,9 @@ html {
 #region-branding-second #block-search-form {
     display: block;
 
+}
+.block-superfish-4 {
+    display: block;
 }
 /*#block-views-base-announcement-block {
     display: none;
@@ -104,3 +111,11 @@ html {
     padding-left: 0px;
 
 }
+
+#zone-menu {
+    background: url("../images/black-50.png") repeat scroll left top transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ 
+}
+
