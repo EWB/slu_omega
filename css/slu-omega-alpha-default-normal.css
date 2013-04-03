@@ -40,7 +40,7 @@
     max-width:200px;
 
 }
-.front #zone-postscript img {
+.front #zone-postscript .view-base-announcement img {
 
     width:100px;
     height: 67px;
@@ -538,16 +538,16 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
       width: 520px;  
       margin-left: 60px;
 }
-.front #zone-postscript img {
+.front #zone-postscript .view-base-announcement img {
 
     width:180px;
     height: 120px;
 
 }
 .front #zone-postscript .view-manuscript-collections img {
-
+/*
   height: 100px;
-  width: 78px;
+  width: 78px;*/
 }
 
 #boxes-box-front_resources_block ul.homeres li {

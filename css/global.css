@@ -1746,9 +1746,10 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 }
 .front #zone-postscript .view-manuscript-collections img {
 
-  height: 100px;
-  width: 78px;
+/*  height: 100px;
+  width: 78px;*/
   float: left;
+  margin-right: 12px;
 }
 
 
@@ -1767,7 +1768,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     min-height: 20px;
 }
 
-.front #zone-postscript img {
+.front #zone-postscript .view-base-announcement img {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #DDDDDD;
     margin-top: 10px;

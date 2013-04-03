@@ -111,6 +111,10 @@ html {
 
 }
 
+#boxes-box-front_resources_block h2.block-title {
+    margin-bottom: 0px;
+}
+
 #boxes-box-front_resources_block ul.homeres li {
 
     width:170px;  
