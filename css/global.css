@@ -600,7 +600,12 @@ ul.nice-menu li.menuparent:hover a{
     background-color: #003366;
     }
 
-
+#block-superfish-2 {
+    background: url("../images/mobile-nav-icon.png") no-repeat;
+}
+#block-superfish-2 .sf-menu {
+    margin-left: 28px;
+}
 .library-menu-mobile  ul.nice-menu li.menuparent  {
     background-color: #003366;
 
