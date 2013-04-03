@@ -3,9 +3,18 @@
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
 
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
+
+  
+}
 #zone-content {
-	min-height: 700px;
+	min-height: 800px;
 
 }
 
@@ -87,4 +96,11 @@
 }
 #zone-postscript .block-views .views-row {
     min-height: 305px;
+}
+
+#boxes-box-front_resources_block ul.homeres li {
+
+    width:170px;  
+    padding-left: 0px;
+
 }

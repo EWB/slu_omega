@@ -2,7 +2,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 html { 
-  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  background: none; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -296,8 +296,9 @@ a:hover {
 
     background-color: #3C221C;
     border-top: 2px solid #4A2B23;
-    height: 240px;
     color:#ffffff;
+
+
 
 }
 #zone-footer-wrapper{
@@ -307,7 +308,7 @@ a:hover {
     
     padding-top: 25px;
     color:#ffffff;
-    
+
 }
 
 #zone-preface {
@@ -1158,16 +1159,7 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 
 }
 
-/**************** Announcement - Find Page - Styling - END ***************************/
-
-
-.block-quicktabs-library-book-search-cluster h2.block-title  {
-    display: none;
-}
-.block-quicktabs-library-video-search-cluster h2.block-title  {
-    display: none;
-}
-
+/**************** Resources Block - Styling - BEGIN ***************************/
 
 #zone-content-grid #block-boxes-front-resources-block h2.block-title {
     color: #4B2B23;
@@ -1175,8 +1167,8 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 
 }
 #zone-content-grid #boxes-box-front_resources_block {
-    overflow: hidden;
-    width: 220px;
+   /* overflow: hidden;
+    width: 220px;*/
 }
 
 #boxes-box-front_resources_block ul.homeres {
@@ -1186,28 +1178,22 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 }
 #boxes-box-front_resources_block ul.homeres li {
     color: #333333;
-    display: inline;
+    display: inline-block;
     float: left;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 10px;
     font-weight: bold;
     margin: 0 0 15px;
     padding-left: 13px;
-    width: 60px;
+    width:50px;
+    
 }
 .not-front #boxes-box-front_resources_block ul.homeres li {
     margin: 10px 0 15px;
     padding-left: 19px;
     width: 48px;
 }
-/*.not-front .block .content #boxes-box-front_resources_block ul li {
-    border-bottom: medium none;
-}
-.not-front #boxes-box-front_resources_block ul.homeres li {
-    margin: 10px 0 15px;
-    padding-left: 19px;
-    width: 48px;
-}*/
+
 #boxes-box-front_resources_block ul.homeres li img {
     float: left;
     margin-bottom: 10px;
@@ -1242,12 +1228,20 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
     font-weight: bold;
     text-decoration: none;
 }
-ul.primary li.active a {
-    border-radius: 8px 8px 0 0;
+#boxes-box-front_resources_block ul.homeres li {
+    border-bottom: none;
+
+    }
+.front .region-sidebar-first .block, .front .region-sidebar-second  .block {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    padding-left: 2px;
+    padding-right:2px;
 }
-ul.primary li a  {
-    border-radius: 8px 8px 0 0;
-}
+/**************** Resources Block - Styling - END ***************************/
 
 /**************** LIBRARY MENU - START ***************************/
 .region-menu {
@@ -1301,6 +1295,8 @@ ul.primary li a  {
 .sf-menu * {
 z-index: 1000 ; /* ie6 and ie7 z-index bug fix, maintains the menu drop downs above any other positioned elements */
 }
+
+
 
 /*.webform-component img {
     float: right;
@@ -1683,19 +1679,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     text-indent: -1.0em;
 
 }
-#boxes-box-front_resources_block ul.homeres li {
-    border-bottom: none;
 
-    }
-.front .region-sidebar-first .block, .front .region-sidebar-second  .block {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: none;
-    border-radius: 5px 5px 5px 5px;
-    margin-bottom: 5px;
-    padding: 0;
-    padding-left: 2px;
-    padding-right:2px;
-}
 
 .not-front h2.block-title {
     font-size: 1em;
@@ -1745,6 +1729,13 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 .view-manuscript-collections  {
     padding-bottom: 24px;
 }
+.front #zone-postscript .view-manuscript-collections img {
+
+  height: 100px;
+  width: 78px;
+  float: left;
+}
+
 
 .front .view-manuscript-collections .views-field-title  {
 
@@ -1844,6 +1835,7 @@ div.admin.my-workbench .left {
 
 #zone-footer-sub-wrapper {
     background-color: #3C221C;
+    padding-bottom: 35px;
 
 }
 #zone-footer-sub-wrapper h2.block-title {
@@ -1857,6 +1849,10 @@ div.admin.my-workbench .left {
 #zone-footer-sub-wrapper a:link, #zone-footer-sub-wrapper a:visited {
     color: #FFFFFF;
 }
+.block-footer p {
+    text-align: center;
+}
+
 
 /*.breadcrumb  {
     background: url("../images/breadcrumb-bg.png") no-repeat scroll right top #EAEAEA;
@@ -1956,8 +1952,186 @@ div.admin.my-workbench .left {
 */
 
 
+     /* $Id: micro-gallery-x-340x200.css,v 1.1.1 2011/01/10 23:44:44 DRIVE Exp $ */
+/**
+      "MICRO GALLERY 'X' 340x200" for Drupal, Galleryformatter Module by Manuel Garcia
+**/
+
+/* Configuration --> Media --> Image Styles --> Add Style
+   -add micro-thumb-52x38 + add Effect: scale and crop 52w x 38h
+   -add micro-slide-340x200 + add Effect: scale and crop 340w x 200h
+   -set up and use per Galleryformatter documentation
+*/
+
+/* next two lines help SOME themes to NOT hijack Galleryformatter styles - DRIVE - 03262011 */
+.node .content .galleryformatter ul { list-style-type:none; }
+.node .content .galleryformatter ul li { list-style:none;background-image:none;background:transparent none;padding-left:0;margin-left:0;border:none;vertical-align:inherit; }
+
+/* set width & background color - different background # provide nuances
+   in overall resulting color when using bg-trans.png - Default settings are transparent - DRIVE
+*/
+.galleryformatter .galleryformatter,
+div.galleryformatter,
+div.galleryformatter,
+/* the lines above help SOME themes to NOT hijack Galleryformatter styles - DRIVE - 03262011 */
+.galleryformatter { 
+/* tune the overall footprint of the gallery container.
+  -if your galleries are in articles, tune to give more space.
+  -if you use this in a column block, you might reduce the width or padding for example.
+  -turn border on/change its color to visualize container proportions.
+*/
+  padding:4px;
+  width:304px;
+  border:1px solid #191919;
+  clear:both;
+  margin-bottom:4px;
+  background: #333333 url(../images/bg-trans.png) repeat;
+ /* background-color:transparent;*/
+}
+
+.galleryformatter .gallery-thumbs, .gallery-thumbs ul li { padding: 0px 0px 0px 0px; }
+.galleryformatter .gallery-slides { }
+.galleryformatter .gallery-slide { }
+
+.galleryformatter .gallery-thumbs .arrow,
+.galleryformatter .gallery-thumbs .wrapper,
+.galleryformatter .gallery-thumbs li.active a,
+.galleryformatter .gallery-thumbs li a:hover,
+.galleryformatter .view-full { background:url("../images/sprite.png") no-repeat scroll 0 0 transparent; }
+
+.galleryformatter .gallery-slides .panel-overlay {
+  position: absolute;
+  /*bottom: 0.1em; left: 0;*/
+  /*ewb*/  bottom:0em;
+  width: 100%;
+  color: #545454;
+  background: transparent url(../images/bg-trans.png) repeat;
+}
+.galleryformatter .overlay-inner h3 { 
+/* set font stuff for slide caption overlay - Title of image used here!
+   MUST enable title & optionally alt in field display tab for
+   Content Type - title is used for captions on slides and full.
+   alt is for pure xhtml and recommended (they can be identical for speed...cnp keyboard) - DRIVE 02172011
+*/
+  font-family:Verdana,Helvetica,Tahoma,Arial,sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  color:#D6D6D6;
+  padding: 5px;
+}
+.galleryformatter .gallery-thumbs .wrapper {
+  overflow: auto;
+  line-height:0;
+  background-position: center -163px;
+  background-repeat: repeat-x;
+  border-bottom: 4px solid #2D2D2D;
+  /* tune or turn off the border below the left and right thumb arrows/carousel */
+}
+.galleryformatter .view-full {
+  background-position:center -102px;
+  height:24px; width:24px;
+  margin:5px;
+  position:absolute;
+  right:0; top:0;
+  text-indent:-9999px;
+}
+.galleryformattera:hover .view-full {
+  background-position: center -126px;
+}
+.galleryformatter .gallery-thumbs ul { list-style: none; }
+.galleryformatter .gallery-thumbs li {
+  float: left;
+  background: transparent none;
+  overflow:hidden;
+  /*padding-top: 3px;*/
+  padding:3px 6px 0 0;
+}
+.galleryformatter .gallery-thumbs li a {
+  display: block;
+  padding: 19px 0 7px;
+}
+.galleryformatter .gallery-thumbs li a:hover { background-position: center -153px; }
+.galleryformatter .gallery-thumbs li.active a { background-position: center -151px; }
+
+.galleryformatter .gallery-thumbs li.active img,
+.galleryformatter .gallery-thumbs li a:hover img {
+  filter:alpha(opacity=100);
+  -ms-filter:”alpha(opacity=100)”;
+  -moz-opacity:1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+.galleryformatter .gallery-thumbs li img {
+  filter:alpha(opacity=60);
+  -ms-filter:”alpha(opacity=60)”;
+  -moz-opacity:0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+}
+
+.galleryformatter .gallery-thumbs .arrow {
+  bottom:0;
+  display:block;
+  width:23px;
+  height:23px;
+  position:absolute;
+  text-indent:-9999px;
+}
+
+.galleryformatter .gallery-thumbs .forward {
+  background-position: 0px 0;
+  right: 0;
+}
+
+.galleryformatter .gallery-thumbs .back {
+  background-position: -2px -51px;
+  left: 0;
+}
+
+.galleryformatter .gallery-thumbs .forward:hover { background-position: 0px -26px; }
+
+.galleryformatter .gallery-thumbs .back:hover { background-position: -2px -78px; }
+
+.galleryformatter .slide-button {
+  background: transparent url(../images/next-prev.png) no-repeat top left;
+  height: 32px;
+  width: 16px;
+  top: 43%;
+  text-indent: -9999px;
+  filter:alpha(opacity=3);
+  -ms-filter:”alpha(opacity=3)”;
+  -moz-opacity:0.3;
+  -khtml-opacity: 0.3;
+  opacity: 0.3;
+}
+
+.galleryformatter .prev-slide {
+  background-position: top left;
+}
+.galleryformatter.next-slide {
+  background-position: top right;
+}
+.galleryformatter .slide-button:hover {
+   filter: alpha(opacity=80);
+  -ms-filter: ”alpha(opacity=80)”;
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
 
 
+.galleryformatter {
+float: left;
+margin-right: 18px;
+/*margin-top: 85px;*/
+}
 
-/* This file will hold styles for the mobile version of your website (mobile first). */
-/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+.galleryformatter h4 {
+    font-size: 1.1em;
+    border-bottom:none;
+    color:#FFFFFF;
+    padding-top:6px;
+    padding-bottom:4px;
+}
+
+
