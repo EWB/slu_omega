@@ -989,6 +989,9 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 
 }
 
+.node-general-content .field img {
+    margin-right: 10px;
+}
 
 .cboxPhoto img {
   max-width: 100%;
