@@ -40,3 +40,9 @@
 .front .container-12 .grid-3 {
     width: 280px;
 }
+
+.view-citation-guides .views-field-title, .view-citation-guides .views-field-body, .view-citation-guides .views-field-field-citation-guide-additional {
+    float: right;
+    overflow: hidden;
+    width: 82%;
+}
