@@ -43,6 +43,7 @@ html {
 #region-branding-second #block-search-form {
     display: block;
     margin-top: 45px;
+    z-index: 500;
 
 }
 .block-superfish-4 {
