@@ -1,0 +1,155 @@
+
+/*
+
+.sf-menu.sf-style-pomegranate li, .sf-menu.sf-style-pomegranate.sf-navbar {
+    background: url("../images/menu-bg.png") repeat-x scroll left top transparent;
+    border-radius: 5px 5px 5px 5px;
+    display: block !important;
+    height: 43px;
+    width: auto;
+}*/
+
+/*.sf-menu.sf-style-pomegranate li a {
+    color: #000000;
+}*/
+
+/*.sf-menu.sf-style-pomegranate  {
+            background: url("../images/menu-bg.png") repeat-x scroll left top transparent;
+    border-radius: 5px 5px 5px 5px;
+
+}*/
+
+#region-branding-second ul.menu li {
+    margin: 0em;
+}
+
+.sf-menu.sf-style-pomegranate.sf-navbar {
+    
+}
+
+/*EWB Above
+*/
+
+
+.sf-menu.sf-style-pomegranate {
+    float: left;
+    margin-bottom: 1em;
+    padding: 0;
+}
+.sf-menu.sf-style-pomegranate.sf-navbar {
+    width: 100%;
+
+}
+.sf-menu.sf-style-pomegranate ul {
+    padding-left: 0;
+}
+.sf-menu.sf-style-pomegranate a {
+    border: 1px outset #68000E;
+    color: #FFEBEE;
+
+    padding: 0.75em 1em;
+}
+.sf-menu.sf-style-pomegranate a.sf-with-ul {
+    padding-right: 2.25em;
+}
+.sf-menu.sf-style-pomegranate.rtl a.sf-with-ul {
+    padding-left: 2.25em;
+    padding-right: 1em;
+}
+.sf-menu.sf-style-pomegranate.sf-navbar a {
+    border: 0 none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+/*  padding: 0.9em 1em 1em;
+*/  text-decoration: none;
+    text-shadow: 1px 2px 2px #211611;
+    text-transform: uppercase;
+}
+.sf-menu.sf-style-pomegranate span.sf-description {
+    color: #1133AA;
+    display: block;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 5px 0 0 5px;
+    padding: 0;
+}
+.sf-menu.sf-style-pomegranate li, .sf-menu.sf-style-pomegranate.sf-navbar {
+        background: none repeat scroll 0 0 #79001C;
+        background: url("../images/menu-bg.png") repeat-x scroll left top transparent;
+        height: 38px;
+        width: auto;
+
+
+
+}
+.sf-menu.sf-style-pomegranate li li {
+    background: none repeat scroll 0 0 #6C0019;
+}
+.sf-menu.sf-style-pomegranate li li li {
+/*    background: none repeat scroll 0 0 #5F0016;
+*/        background: none repeat scroll 0 0 #F0F0F0;
+color: #000000;
+
+}
+.sf-menu.sf-style-pomegranate li:hover, .sf-menu.sf-style-pomegranate li.sfHover, .sf-menu.sf-style-pomegranate li.active a, .sf-menu.sf-style-pomegranate a:focus, .sf-menu.sf-style-pomegranate a:hover, .sf-menu.sf-style-pomegranate a:active, .sf-menu.sf-style-pomegranate.sf-navbar li li {
+/*    background: none repeat scroll 0 0 #4C0012;
+    color: #FFFFFF;*/
+    background: none repeat scroll 0 0 #F0F0F0;
+    color:#000000;
+    color: #4b2b23;
+    text-shadow: none;
+}
+.sf-menu.sf-style-pomegranate.sf-navbar li ul {
+    /*background-color: #4C0012;
+    */background: none repeat scroll 0 0 #F0F0F0;
+
+}
+.sf-menu.sf-style-pomegranate.sf-navbar li ul li ul {
+    background-color: transparent;
+}
+.sf-menu.sf-style-pomegranate ul.sf-megamenu li.sf-megamenu-wrapper ol, .sf-menu.sf-style-pomegranate ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+    margin: 0;
+    padding: 0;
+}
+.sf-menu.sf-style-pomegranate ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
+    font-weight: bold;
+}
+.sf-menu.sf-style-pomegranate ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+    display: inline;
+    float: left;
+    width: 12em;
+}
+.sf-menu.sf-style-pomegranate.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+    float: right;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-1 ul.sf-megamenu {
+    width: 12em;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-2 ul.sf-megamenu {
+    width: 24em;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-3 ul.sf-megamenu {
+    width: 36em;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-4 ul.sf-megamenu {
+    width: 48em;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-5 ul.sf-megamenu {
+    width: 60em;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-6 ul.sf-megamenu {
+    width: 72em;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-7 ul.sf-megamenu {
+    width: 84em;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-8 ul.sf-megamenu {
+    width: 96em;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-9 ul.sf-megamenu {
+    width: 108em;
+}
+.sf-menu.sf-style-pomegranate li.sf-parent-children-10 ul.sf-megamenu {
+    width: 120em;
+}

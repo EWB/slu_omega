@@ -10,13 +10,29 @@ html {
   -o-background-size: cover;
   background-size: cover;
 
-
   
+}
+
+#zone-branding {
+    background-color: #A90018;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+#region-branding-second {
+  background: url("../images/menu-bg.png") repeat-x scroll left top transparent;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  width: 720px;
 }
 #zone-content {
 	min-height: 800px;
 
 }
+
+#region-branding-second .sf-menu.sf-style-pomegranate {
+  margin-bottom: 1px;
+  }
 
 /*.logo-img img {
     width:320px;
@@ -33,6 +49,13 @@ html {
             background-color:transparent;
 
 }
+ .sf-menu.sf-style-pomegranate.sf-navbar {
+    display: block;
+}
+#block-superfish-4 {
+    display: block;
+}
+
 
 .block-nice-menus-2 {
     display: block;
@@ -41,14 +64,10 @@ html {
 	display: block;
 }
 #region-branding-second #block-search-form {
-    display: block;
-    margin-top: 45px;
-    z-index: 500;
+    display: none;
+}
 
-}
-.block-superfish-4 {
-    display: block;
-}
+
 /*#block-views-base-announcement-block {
     display: none;
 
@@ -127,8 +146,7 @@ html {
 
 #zone-menu {
     background: url("../images/black-50.png") repeat scroll left top transparent;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+
  
 }
 
@@ -145,3 +163,11 @@ html {
 .front .view-base-announcement .field-name-field-announcement-images img {
   float: left;
 }
+
+.sf-menu.sf-style-pomegranate.sf-navbar {
+    margin-top: 0px;
+
+    }
+
+
+

@@ -20,7 +20,31 @@
       padding-top: 60px;
 
 }  */
+#zone-branding {
+    background-color: transparent;
+    padding-bottom: 4px;
+}
 
+#region-branding-second {
+  background: transparent;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  width: 670px;
+}
+
+#block-superfish-4 {
+  float: right;
+}
+
+#region-branding-second .sf-menu.sf-style-pomegranate {
+    margin-bottom: 1em;
+
+  }
+
+.sf-menu.sf-style-pomegranate li, .sf-menu.sf-style-pomegranate.sf-navbar {
+    border-radius: 5px 5px 5px 5px;
+
+  }
 #zone-content-grid h2.block-title {
 
     font-size: 1.3em;
@@ -289,6 +313,13 @@
     display: block;
 }
 
+#region-branding-second #block-search-form {
+    display: block;
+/*    margin-top: 45px;
+*/    z-index: 500;
+
+}
+
 /**************** hide and seek - END ***************************/
 
 /**************** Search Results Styling - START ***************************/
@@ -555,5 +586,9 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
     width:60px;  
 }
 
+.sf-menu.sf-style-pomegranate.sf-navbar {
+    margin-top: 18px;
+    border-radius: 5px 5px 5px 5px;
 
+  }
 
