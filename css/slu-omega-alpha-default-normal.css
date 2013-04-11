@@ -51,6 +51,12 @@
 
 }
 
+#zone-menu {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ 
+}
+
  #block-views-base-announcement-block .views-row {
 /*    float:left;
     margin-left: 30px; 
