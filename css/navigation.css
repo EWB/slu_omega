@@ -18,14 +18,45 @@
     border-radius: 5px 5px 5px 5px;
 
 }*/
+.global-nav .sf-megamenu-column .sf-navbar li li {
+    background-color: white; 
+}
+
 
 #region-branding-second ul.menu li {
     margin: 0em;
 }
 
-.sf-menu.sf-style-pomegranate.sf-navbar {
-    
+/*.sf-menu.sf-style-pomegranate.sf-navbar   {
+    background-color : #FFF;
+}*/
+
+.sf-menu.sf-style-pomegranate ul.sf-megamenu li.sf-megamenu-wrapper {
+    background-color : red;
+
 }
+
+#superfish-4 .sf-menu.sf-style-pomegranate.sf-navbar li li  {
+        background-color : red;
+
+
+
+}
+.sf-menu.sf-style-pomegranate.sf-navbar .menuparent .sf-megamenu-column a {
+    text-transform: none;
+    color: #787878;
+    font-size: 0.8em;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: none;
+
+}
+.sf-megamenu-column a.menuparent {
+  display: none;
+}
+
+
+
 
 /*EWB Above
 */
@@ -56,7 +87,7 @@
     padding-left: 2.25em;
     padding-right: 1em;
 }
-.sf-menu.sf-style-pomegranate.sf-navbar a {
+.sf-menu.sf-style-pomegranate.sf-navbar .menuparent a {
     border: 0 none;
     color: white;
     font-size: 14px;
@@ -153,3 +184,5 @@ color: #000000;
 .sf-menu.sf-style-pomegranate li.sf-parent-children-10 ul.sf-megamenu {
     width: 120em;
 }
+
+

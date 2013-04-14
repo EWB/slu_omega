@@ -66,6 +66,10 @@ html {
 #region-branding-second #block-search-form {
     display: none;
 }
+#region-menu-second #block-search-form {
+    display: block;
+
+}
 
 
 /*#block-views-base-announcement-block {
