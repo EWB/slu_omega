@@ -55,7 +55,9 @@
   display: none;
 }
 
-
+.sf-menu ul li {
+    margin:0;
+}
 
 
 /*EWB Above
