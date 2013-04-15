@@ -118,15 +118,7 @@ h3, h4, h5, h6 {
 #zone-branding {
 /*        background-color:#A90018;
 */}
-   /* background-image: url(../images/header-blue-w-seal.png);*/
-/*     background-color: #488ABE;
-    background-color:#7BB4E1;
-   box-shadow: 0 0 10px #000000;
-    padding-top: 28px;
-   padding-bottom: 4px;*/ 
-
-/*blue*/
-/*scarlet*/
+   
 #zone-branding {
     padding-bottom: 4px;
    /* background-image: url(../images/header-blue-w-seal.png);*/
@@ -576,10 +568,13 @@ ul.quicktabs_tabs.quicktabs-style-zen {
     float:right;
 
 }
+
+
 #connect-ny-search   {
     margin:12px 0 0 175px;
 
 }
+
 .block-nice-menus-2 {
     display: none;
 }
