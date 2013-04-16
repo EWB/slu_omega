@@ -215,3 +215,13 @@ html {
     margin-top: 80px;
 
 }
+
+    #search-block-form input.form-submit, #search-form input.form-submit {
+      height: 30px;
+      width: 44px;
+      cursor: pointer;
+      text-indent: -9999px;
+      border: none;
+      background: url("../images/search-icon.png") no-repeat scroll center 6px transparent;
+      z-index: 5500;
+    }
