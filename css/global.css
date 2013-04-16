@@ -2307,10 +2307,10 @@ ul.primary li a  {
 }
 
 
-.storyjs-embed.sized-embed {
+.node-type-general-content .storyjs-embed.sized-embed {
     border: 0px solid #CCCCCC;
 }
-.storyjs-embed {
+.node-type-general-content .storyjs-embed {
     background-color: #FFFFFF;
 
 }
