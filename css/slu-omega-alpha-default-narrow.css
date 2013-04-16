@@ -210,3 +210,8 @@ html {
 .block-superfish-1 ul.menu li {
     margin: 0 0 0 0em;
 }
+
+.front #block-views-featured-block img  {
+    margin-top: 80px;
+
+}
