@@ -64,10 +64,10 @@ html {
 	display: block;
 }
 #region-branding-second #block-search-form {
-    display: none;
+    display: block;
 }
 #region-menu-second #block-search-form {
-    display: none;
+    display: block;
 
 }
 
@@ -205,5 +205,9 @@ html {
 
 .views-field-field-staff-profile-bio  {
   margin-bottom:12px;
+}
+
+#region-menu .container-12 .grid-8 {
+    width: 500px;
 }
 
