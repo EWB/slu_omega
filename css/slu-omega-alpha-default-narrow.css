@@ -207,7 +207,6 @@ html {
   margin-bottom:12px;
 }
 
-.container-12 .grid-8 {
-    width: 500px;
+.block-superfish-1 ul.menu li {
+    margin: 0 0 0 0em;
 }
-
