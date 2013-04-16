@@ -216,7 +216,7 @@ html {
 
 }
 
-    #search-block-form input.form-submit, #search-form input.form-submit, #search-form input.submit--2{
+    #search-block-form input.form-submit, #search-form input.form-submit, #search-block-form--2 #search-form input.form-submit{
       height: 30px;
       width: 44px;
       cursor: pointer;
