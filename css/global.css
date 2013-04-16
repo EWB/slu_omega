@@ -2305,3 +2305,12 @@ ul.primary li a  {
     margin-bottom: 0;
     padding: 3px 0 0 42px;
 }
+
+
+.storyjs-embed.sized-embed {
+    border: 0px solid #CCCCCC;
+}
+.storyjs-embed {
+    background-color: #FFFFFF;
+
+}
