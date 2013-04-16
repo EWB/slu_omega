@@ -587,4 +587,7 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
     border-radius: 5px 5px 5px 5px;
 
   }
+.front #block-views-featured-block   {
+    margin-top: 4px;
 
+}
