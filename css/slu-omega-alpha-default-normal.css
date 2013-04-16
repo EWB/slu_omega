@@ -227,17 +227,6 @@
     width: 580px;
 }*/
 
-.node-type-library-staff-profile .field-name-field-staff-profile-photograph {
-      float: left;
-      margin-right: 24px;
-      margin-top: 14px;
-}
-.field-name-field-staff-profile-email {
-  clear:both;
-}
-.field-name-field-staff-profile-bio  {
-      margin-top: 18px;
-}
 
 
 .node-type-library-manuscript-collection .field-name-field-manuscript-image  {
@@ -325,6 +314,7 @@
 */    z-index: 500;
 
 }
+
 
 /**************** hide and seek - END ***************************/
 
