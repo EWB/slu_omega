@@ -989,7 +989,7 @@ ul.nice-menu-down li li.menuparent:hover {
 #block-quicktabs-site-search .ui-state-default .ui-icon {
     background-image: none;
 }
-#block-quicktabs-site-search .mobile-site-search { 
+#block-quicktabs-site-search  { 
     margin-left: -10px;  
     margin-right: -10px;
     margin-top: -40px;
