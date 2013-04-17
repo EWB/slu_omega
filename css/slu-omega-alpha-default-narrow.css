@@ -70,7 +70,17 @@ html {
     display: block;
 
 }
+#block-search-form--2 {
+    display: block;
+}
 
+#search-block-form--3 {
+  display: block;
+}
+
+#quickset-site_search {
+    display: none;
+}
 
 /*#block-views-base-announcement-block {
     display: none;
@@ -225,3 +235,9 @@ html {
       background: url("../images/search-icon.png") no-repeat scroll center 6px transparent;
       z-index: 5500;
     }
+#block-delta-blocks-site-name  {
+    margin-top: 0px;
+    margin-right: 0px;
+
+
+}    
