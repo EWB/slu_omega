@@ -560,6 +560,13 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
 .page-node .block-main .node-general-content {
     padding-left: 24px;
 }
+.context-chronology .page-node .block-main .node-general-content {
+    padding-left: 0px;
+}
+
+.context-chronology .storyjs-embed {
+    border: 0px !important;
+  }
 
 #block-quicktabs-special-collections-search-clust {
       width: 520px;  
