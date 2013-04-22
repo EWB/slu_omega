@@ -222,9 +222,11 @@ html {
 }
 
 .front #block-views-featured-block   {
-    margin-top: 80px;
+    margin-top: 30px;
 
 }
+
+
 
     #search-block-form input.form-submit, #search-form input.form-submit, #search-block-form--2 input.form-submit{
       height: 30px;
@@ -240,4 +242,14 @@ html {
     margin-right: 0px;*/
 
 
-}    
+} 
+.front #views_slideshow_cycle_teaser_section_featured-block  {
+     width: 300px;
+    height: 188px;
+  
+}
+.front #block-views-featured-block img {
+    width: 300px;
+    height: 188px;
+
+}

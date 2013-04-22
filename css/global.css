@@ -707,7 +707,16 @@ ul.nice-menu-down li li.menuparent:hover {
     background: url("../images/bg-nav-down.png") no-repeat scroll right center #003366;
 }
 
+.front #views_slideshow_cycle_teaser_section_featured-block  {
+     width: 300px;
+    height: 188px;
+  
+}
+.front #block-views-featured-block img {
+    width: 300px;
+    height: 188px;
 
+}
 .front .view-featured-content img {
     background: none repeat scroll 0 0 #FFFFFF;
     /*border: 1px solid #DDDDDD;*/
@@ -725,11 +734,11 @@ ul.nice-menu-down li li.menuparent:hover {
 .flex-direction-nav .flex-prev, .flex-direction-nav .flex-next{
     display: none;
     }
-.front #block-views-featured-block img {
+/*.front #block-views-featured-block img {
     width: 300px;
     height: 188px;
 
-}
+}*/
 
 #boxes-box-library_db_course_list img {
     padding-right: 6px;
@@ -1490,7 +1499,9 @@ z-index: 1000 ; /* ie6 and ie7 z-index bug fix, maintains the menu drop downs ab
     display: none;
 }
 
-
+.sharethis-wrapper {
+    margin-bottom: 14px;
+}
 
 
 p.two-column-first, div.two-column-first, span.two-column-first {
@@ -2260,7 +2271,12 @@ div.galleryformatter,
   font-weight:normal;
   color:#D6D6D6;
   padding: 5px;
+  
 }
+.galleryformatter .overlay-inner h4 { 
+        display: none;
+
+    }
 .galleryformatter .gallery-thumbs .wrapper {
   overflow: auto;
   line-height:0;
@@ -2461,4 +2477,58 @@ ul.primary li a  {
 .node-type-general-content .storyjs-embed {
     background-color: #FFFFFF;
 
+}
+
+  .front .views_slideshow_singleframe_previous {
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+  background: url(yourimage-back) no-repeat;
+  font-size: 1px;
+  color: #444;
+  }
+ 
+  .front .views_slideshow_singleframe_next {
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+  background: url(yourimage-next) no-repeat;
+  font-size: 1px;
+  color: #444;
+  }
+ 
+  .front .views_slideshow_singleframe_pause {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(yourimage-pause) no-repeat;
+  font-size: 1px;
+  color: #444;
+  }
+ 
+  .front .views_slideshow_singleframe_play {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(yourimage-play) no-repeat;
+  font-size: 1px;
+  color: #444;
+  }
+#widget_pager_bottom_featured-block {
+     margin-top:7px;
+     margin-left: 30px;
+ }
+
+.views-slideshow-controls-bottom .views-content-counter {
+    background: none repeat scroll 0 0 #EEEEEE;
+    box-shadow: 0 1px 3px 1px #CCCCCC;
+    padding: 1px 7px 1px 7px;
+  }
+.active .views-content-counter {
+    font-weight:bold;
+}  
+
+.views_slideshow_pager_field_item {
+    float: left;
+    margin-right: 5px;
 }

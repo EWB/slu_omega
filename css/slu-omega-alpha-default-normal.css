@@ -249,12 +249,21 @@
     margin-top:140px;
 
 }
-
+.front #views_slideshow_cycle_teaser_section_featured-block  {
+    height: 250px;
+    width: 400px;
+  
+}
 .front #block-views-featured-block img {
     height: 250px;
     width: 400px;
+    
 }
 
+.view-featured {
+    margin-left: 70px;
+
+}
 .front .flexslider {
     width: 400px
 }
@@ -598,3 +607,9 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
     margin-top: 4px;
 
 }
+
+#widget_pager_bottom_featured-block {
+     margin-top:10px;
+     margin-left: 150px;
+ }
+
