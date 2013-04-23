@@ -880,7 +880,12 @@ ul.nice-menu-down li li.menuparent:hover {
 .zone-content .breadcrumb {
     display: none;
 }
-
+.block-logo-slu {
+  display: none;
+}
+#boxes-box-logo_slu_mobile {
+    display: block;
+}
 
 
 
@@ -1987,7 +1992,8 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     padding-bottom: 24px;
 }
 .front .view-manuscript-collections a {
-    color:red;
+    color:#607C8C;
+    font-weight: bold;
 
 }
 

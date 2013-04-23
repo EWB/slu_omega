@@ -49,9 +49,17 @@ html {
             background-color:transparent;
 
 }
- .sf-menu.sf-style-pomegranate.sf-navbar {
+.sf-menu.sf-style-pomegranate.sf-navbar {
     display: block;
 }
+.block-logo-slu {
+  display: block;
+}
+#boxes-box-logo_slu_mobile {
+    display: none;
+}
+
+
 #block-superfish-4 {
     display: block;
 }
