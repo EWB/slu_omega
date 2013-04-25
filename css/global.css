@@ -470,6 +470,8 @@ ul.quicktabs-tabs.quicktabs-style-zen li.active a, ul.quicktabs-tabs.quicktabs-s
     border-radius: 6px 6px 6px 6px;
     color: #222222;
     background-color: #C7C5BA;
+    width: 500px;
+    margin-bottom: 20px;
 }     
 #quicktabs-library_book_search_cluster  .ui-tabs-panel {
     border: 1px solid #DDDDDD;
@@ -1938,9 +1940,10 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     margin-bottom: 5px;
     padding-bottom: 5px;
     padding-left: 1em;
-    text-indent: -1.0em;
-
+/*    text-indent: -1.0em;
+*/
 }
+
 
 
 .not-front h2.block-title {
