@@ -494,7 +494,11 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
     margin-right: 0px;
     padding-left: 0px;
 }
-
+.node-type-general-content img {
+   float: right;
+  margin-right: 18px;
+  padding-left: 18px;
+}
 
 .view-citation-guides tr {
 
