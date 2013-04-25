@@ -477,17 +477,18 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
     float: right;
     width: 37%;
 }
-.node-type-general-content .field-type-image  {
+.front .node-type-general-content .field-type-image  {
   float: right;
   margin-right: 18px;
   padding-left: 18px;
 
 }
- .node-type-general-content .block-announcements-block .field-type-image {
+.front .node-type-general-content .block-announcements-block .field-type-image {
     float: right;
     margin-right: 0px;
     padding-left: 0px;
 }
+
 
 .view-citation-guides tr {
 
