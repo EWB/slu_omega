@@ -369,6 +369,11 @@
     padding-top: 12px;
     padding-left: 8px;
 }
+
+.page-search .field-name-field-staff-profile-photograph img {
+  float: right;
+  margin-left: 14px;
+}
 .page-search-site .node-library-manuscript-collection .group-left {
     width:70%;
     padding-top: 12px;
