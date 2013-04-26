@@ -497,6 +497,7 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
 
 .node-type-general-content .field-type-image  {
   float: right;
+  margin-left: 14px;
 }
 
 
