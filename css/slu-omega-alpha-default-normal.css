@@ -282,21 +282,6 @@
 #block-views-manuscript-collections-block-1 {
   display: block;
 }
-/*#block-views-base-announcement-block-1 {
-    display: none;
-
-}
-#block-views-base-announcement-block {
-    display: block;
-
-}
-#block-views-base-announcement-block-3 {
-    display: none;
-
-}*/
-/*#block-views-base-announcement-block-4 {
-    display: none;
-}*/
 
 .citation-guides-mobile {
     display: none;
@@ -324,7 +309,21 @@
 */    z-index: 500;
 
 }
+/*#block-views-base-announcement-block-1 {
+    display: none;
 
+}
+#block-views-base-announcement-block {
+    display: block;
+
+}
+#block-views-base-announcement-block-3 {
+    display: none;
+
+}*/
+/*#block-views-base-announcement-block-4 {
+    display: none;
+}*/
 
 /**************** hide and seek - END ***************************/
 
