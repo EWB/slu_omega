@@ -25,6 +25,10 @@ html {
   margin-bottom: 0px;
   width: 720px;
 }
+#zone-branding-wrapper  #region-branding-second {
+    width: 720px;
+    float: left;
+  }
 #zone-content {
 	min-height: 800px;
 
