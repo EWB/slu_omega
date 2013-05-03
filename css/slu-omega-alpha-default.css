@@ -1,8 +1,8 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
-body {
+/*body {
 	 background: url(../images/bg.jpg) no-repeat center center fixed; 
-}
+}*/
 
 .block-logo-slu {
   display: block;
@@ -11,45 +11,18 @@ body {
 #zone-branding-wrapper {
 	background: none;
 }
-#zone-branding-wrapper  #region-branding-second {
-
-	margin-left: 0px;
-	width:610px;
-	float: right;
-}
 
 #block-superfish-4 {
     display: block; 
-
 }
 /*
-#block-superfish-4 { 
+#block-superfish-4 {
     float: right;
 }*/
+
 .sf-menu.sf-style-pomegranate.sf-navbar {
     display: block;
 }
-.sf-menu.sf-style-blue {
-/*	position: relative;
-*/	z-index: 100 !important;
-}
-
-.sf-menu,
-.sf-menu * {
-/*    position: relative;
-*/    z-index: 1000 !important; /* ie6 and ie7 z-index bug fix, maintains the menu drop downs above any other positioned elements */
-}
-.section-content {
-    z-index: 1;
-   /* position: relative;*/
-}
-.zone-wrapper {
-    z-index: 1;
-   /* position: relative;*/
-}
-.sf-menu.sf-style-blue li li {
-    background: #000000;
-    }
 
 #boxes-box-logo_slu_mobile {
     display: none;
@@ -60,9 +33,4 @@ body {
 }
 #block-search-form--2 {
     display: block;
-}
-
-.front .view-featured {
-    margin-left: 10px;
-
 }

@@ -470,7 +470,7 @@ ul.quicktabs-tabs.quicktabs-style-zen li.active a, ul.quicktabs-tabs.quicktabs-s
     border-radius: 6px 6px 6px 6px;
     color: #222222;
     background-color: #C7C5BA;
-    width: 500px;
+    width: 320px;
     margin-bottom: 20px;
 }     
 #quicktabs-library_book_search_cluster  .ui-tabs-panel {
@@ -1450,7 +1450,8 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 .sf-menu.sf-style-blue a {
     border: 0px;
     color: #FFFFFF;
-    padding: 0.75em 1em;
+    /*padding: 0.75em 1em;*/
+    padding: .75em;
 }
 
 .sf-menu.sf-style-blue span.sf-description {
@@ -2560,5 +2561,12 @@ ul.primary li a  {
 
 #views-exposed-form-services-a-z-page-1 {
     margin-left:30px;
+
+}
+
+
+.page-search404 .content .search-form   {
+
+    display: none;
 
 }

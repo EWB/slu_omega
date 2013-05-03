@@ -614,6 +614,11 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
     border-radius: 5px 5px 5px 5px;
 
   }
+.sf-menu.sf-style-blue a {
+
+    padding: 0.75em 1em;
+
+}  
 .front #block-views-featured-block   {
     margin-top: 4px;
 
@@ -627,5 +632,12 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
  #block-quicktabs-library-video-search-cluster  {
       margin-left: 50px;
 
+}
+/*ewb friday
+*/#zone-branding-wrapper  #region-branding-second {
+
+  margin-left: 0px;
+  width:610px;
+  float: right;
 }
 
