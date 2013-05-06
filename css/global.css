@@ -104,12 +104,12 @@ h3, h4, h5, h6 {
 }
 
 .block-ebook-collections-block h2.block-title  {
-    margin-top:32px;
-    /*background-color: #666666;
-    color:#FFFFFF;*/
+/*    margin-top:32px;
+    background-color: #666666;
+    color:#FFFFFF;
     padding-top:8px;
     padding-bottom: 8px;
-    padding-left: 9px;
+    padding-left: 9px;*/
 
 }
 
@@ -1326,7 +1326,7 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 }
 .context-find .block-views-announcements-block h3 {
    
-    border-color: -moz-use-text-color -moz-use-text-color #333333;
+/*    border-color: -moz-use-text-color -moz-use-text-color #333333;
     border-style: none none solid;
     border-width: medium medium 1px;
     color: #000;
@@ -1335,7 +1335,16 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
     padding: 6px 15px 5px;
     text-transform: uppercase;
     background: url("../images/shine-bg-blue-grey.png") repeat-x scroll 0 0 #D4DDE5;
-    font-size: 1.2em;
+    font-size: 1.2em;*/
+    border-color: -moz-use-text-color -moz-use-text-color #3C221C;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #3C221C;
+    font-size: 21px;
+    margin: 0 0 9px;
+    padding: 6px 15px 5px;
+    
 
 }
 .context-find .ds-2col-stacked .group-left  {
@@ -1607,8 +1616,8 @@ p.two-column-last, div.two-column-last, span.two-column-last {
         padding-top: 6px;
 
 }
-.context-find h2.block-title {
-    font-size: 1em;
+.context-find #region-preface-first h2.block-title {
+    font-size: 1.2em;
     margin: 10px 10px 10px 1px;
     padding: 6px 15px 5px;
     text-transform: uppercase;
@@ -1617,11 +1626,12 @@ p.two-column-last, div.two-column-last, span.two-column-last {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background: none repeat scroll 0 0 #666666;
+    /*background: none repeat scroll 0 0 #CCCCCC;*/
     border-color: -moz-use-text-color -moz-use-text-color #333333;
     border-style: none none solid;
     border-width: medium medium 1px;
-    color: #FFFFFF;
+    color: ##3C221C;
+    font-weight: bold;
 }
 
 p {
@@ -1764,15 +1774,15 @@ div.views-slideshow-controls-bottom .views-slideshow-controls-text {
     width: 44px;
     z-index: 55;
 }*/
-    #search-block-form input.form-submit, #search-form input.form-submit {
+#search-block-form input.form-submit, #search-form input.form-submit {
       height: 30px;
       width: 44px;
       cursor: pointer;
       text-indent: -9999px;
       border: none;
       background: url("../images/search-icon.png") no-repeat scroll center 6px transparent;
-/*      z-index: 5500;
-*/    }
+      
+   }
 
 form-submit, #search-form .form-wrapper .form-submit {
 
@@ -1948,7 +1958,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 
 .not-front h2.block-title {
-    font-size: 1em;
+ /*   font-size: 1em;
     margin: 0 0 9px 0;
     padding: 6px 15px 5px;
     text-transform: uppercase;
@@ -1961,7 +1971,17 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     border-color: -moz-use-text-color -moz-use-text-color #333333;
     border-style: none none solid;
     border-width: medium medium 1px;
-    color: #FFFFFF;
+    color: #FFFFFF;*/
+    border-color: -moz-use-text-color -moz-use-text-color #3C221C;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #3C221C;
+    font-size: 1em;
+    margin: 0 0 9px;
+    padding: 6px 15px 5px;
+    text-transform: uppercase;
+
 }
 
 .block ul li.leaf {
@@ -2617,6 +2637,10 @@ ul.primary li a  {
     z-index: 55;
 
     }
+.content #search-block-form input.form-submit, #search-form input.form-submit {
+
+    margin-top: 0px;
+}    
 #zone-branding div .collapsiblock a {
   background: url("../images/close.png") no-repeat 1px;
     display: block;
