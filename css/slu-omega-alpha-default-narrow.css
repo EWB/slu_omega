@@ -282,4 +282,21 @@ html {
     width: 500px;
     height: 60px;
     margin-bottom: 20px;
-}     
+}   
+
+.block-logo-slu  {
+/*    background-image: url("../images/logo.png");
+    width:280px;
+    height: 100px;*/
+
+}
+
+/*mobile search - START
+*/
+#zone-branding #block-search-form {
+   display: none;
+
+}
+
+/*mobile search - END
+*/
