@@ -1604,7 +1604,7 @@ p.two-column-last, div.two-column-last, span.two-column-last {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background: none repeat scroll 0 0 #666666;
+    /*background: none repeat scroll 0 0 #666666;*/
     border-color: -moz-use-text-color -moz-use-text-color #333333;
     border-style: none none solid;
     border-width: medium medium 1px;
