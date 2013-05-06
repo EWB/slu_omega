@@ -40,7 +40,9 @@ html {
 .page-node-534 #zone-postscript {
     background-color: #FFFFFF;
 }
-
+.page-node-534 #zone-postscript h2.block-title {
+    color: #000000;
+  }
 #region-branding-second .sf-menu.sf-style-pomegranate {
   margin-bottom: 1px;
   }
