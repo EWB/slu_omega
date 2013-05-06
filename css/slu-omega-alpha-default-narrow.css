@@ -34,6 +34,12 @@ html {
 	min-height: 800px;
 
 }
+.page-node-534 #zone-content {
+  min-height: 250px;
+}
+.page-node-534 #zone-postscript {
+    background-color: #FFFFFF;
+}
 
 #region-branding-second .sf-menu.sf-style-pomegranate {
   margin-bottom: 1px;
