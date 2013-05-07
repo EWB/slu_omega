@@ -146,7 +146,13 @@ html {
 .page-search .node-library-manuscript-collection .field-name-body {
   padding-top: 0px;
 }
+.page-search .node-library-manuscript-collection img {
+    /*margin-top: 52px;*/
+    float: right;
+    margin-left: 12px;
+    margin-right: 12px;
 
+}
 
 
 /*.front #zone-postscript  .field-content p {
