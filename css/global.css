@@ -2596,12 +2596,19 @@ ul.primary li a  {
     display: none;
 
 }
-
+.node-job-posting .content {
+    margin-left: 24px;
+}
+.node-job-posting .field-name-field-supervisor .field-items a {
+    padding-right: 6px;
+}
 /************************** ewb mobile search START **************************/ 
 
 #zone-branding #block-search-form {
    display: block;
+  /* width: 100%;*/
 }
+
 #zone-branding #block-search-form .content {
    /*new*/
    width: 100%;
