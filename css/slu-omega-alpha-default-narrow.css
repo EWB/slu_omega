@@ -143,6 +143,9 @@ html {
 .node-library-manuscript-collection .field-name-body {
   padding-top:24px;
 }
+.page-search .node-library-manuscript-collection .field-name-body {
+  padding-top: 0px;
+}
 
 
 
