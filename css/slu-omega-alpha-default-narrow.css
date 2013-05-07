@@ -153,6 +153,9 @@ html {
     margin-right: 12px;
 
 }
+.page-search .node-library-guide-or-tutorial img {
+  float: right;
+}
 
 
 /*.front #zone-postscript  .field-content p {
