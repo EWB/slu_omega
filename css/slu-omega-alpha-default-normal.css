@@ -471,9 +471,9 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
     
 }*/
 .node-library-guide-or-tutorial .field-name-body {
-  display: block;
+/*  display: block;
   float: left;
-  width: 60%;
+  width: 60%;*/
 }
 .node-library-guide-or-tutorial .field-type-image {
   
@@ -639,5 +639,8 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
   margin-left: 0px;
   width:610px;
   float: right;
+}
+#zone-branding #block-search-form {
+  display: none;
 }
 

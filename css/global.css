@@ -1177,6 +1177,12 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 
 /**************** Search Results Styling - START ***************************/
 
+.page-search h2.node-title {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1em;
+}
+
 .page-search .view-mode-search_result {
     padding-bottom: 22px;
 
