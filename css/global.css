@@ -2443,6 +2443,12 @@ margin-right: 18px;
 /*margin-top: 85px;*/
 }
 
+.node-library-ebook-collection .galleryformatter {
+float: right;
+margin-left: 10px;
+
+}
+
 .galleryformatter h4 {
     font-size: 1.1em;
     border-bottom:none;
