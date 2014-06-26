@@ -2699,3 +2699,73 @@ ul.primary li a  {
     display: none;
 }
 /************************** ewb mobile search END **************************/
+
+
+.node-course-reading h2.node-title a {
+    font-size: 21px;
+
+}
+
+.node-type-course-reading #user-login-form .form-item-name label {
+        color:#FFFFFF;
+
+
+}
+.node-type-course-reading #user-login-form .form-item-name span.form-required {
+        margin-left:-65px;
+
+}
+
+.node-type-course-reading #user-login-form .form-item-name label:before {
+  content: "Course Code";
+  color:#000000;
+}
+.not-front .node-type-course-reading h2.block-title {
+    border-color: none;
+    border-image: none;
+    border-style: none;
+    border-width: none;
+    color: #3C221C;
+    font-size: 1em;
+    margin: 0px 0px 9px;
+    padding: 6px 15px 5px;
+    text-transform: uppercase;
+    width: 230px;
+    text-align: center;
+}
+.node-type-course-reading #block-user-login h2.block-title {
+    font-size: 1em;
+    margin: 0;
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+.node-type-course-reading #block-user-login  {
+  width: 300px ;
+  margin-left: auto ;
+  margin-right: auto ;
+
+}
+
+#edit-ldap-user-fields {
+    display: none;
+}
+.field-name-field-reading-file .caption {
+    display: none;
+}
+.field-type-file .field-items .file img {
+    min-height: 56px;
+    padding:60px;
+}
+.field-name-field-reading-file a[href$=".pdf"]
+{
+  padding-right: 18px;
+  background-image: url("../images/pdficon_large.png");
+  background-position: left center;
+  background-repeat:no-repeat;
+  background-size: 16px;
+  padding-left: 18px;
+  
+
+}
+
